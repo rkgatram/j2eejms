@@ -1,3 +1,11 @@
+# TomEE sample application
+
+This sample application demonstrates TomEE - Java EE applications with JMS.
+
+## Building
+
+`mvn package`
+
 1. Go to RabbitMQ Web Console (http://localhost:15672/)
 2. Create a Queue with the name "movie"
 3. Navigate to exchange tab in RabbitMQ and click on "amq.direct"
@@ -41,5 +49,6 @@
     mysql-connector-java-8.0.18.jar
 
 7.
+
 
 

@@ -5,7 +5,7 @@
    - In 'Add binding from this exchange' section:
      - give "To queue" value as "movie" (i.e., the queue that was created in step 2)
      - Enter "Routing key:" value as "movierouting"
-       And then click on "Bind" button
+    And then click on "Bind" button
 
 4. Navigate to apache-tomee-plume-7.0.6/conf/context.xml. And add the below lines:
 
@@ -39,4 +39,7 @@
     geronimo-jms_1.1_spec-1.1.1.jar
     rabbitmq-jms-1.4.7.jar
     mysql-connector-java-8.0.18.jar
+
 7.
+
+

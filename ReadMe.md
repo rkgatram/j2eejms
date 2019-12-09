@@ -34,4 +34,9 @@
          JtaManaged=true
   </Resource>
 
-6.
+6.  Add the below jars in apache-tomee-plume-7.0.6/lib folder
+    amqp-client-3.6.2.jar
+    geronimo-jms_1.1_spec-1.1.1.jar
+    rabbitmq-jms-1.4.7.jar
+    mysql-connector-java-8.0.18.jar
+7.

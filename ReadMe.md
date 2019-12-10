@@ -13,7 +13,7 @@ This sample application demonstrates TomEE - Java EE applications with JMS.
    - In 'Add binding from this exchange' section:
      - give "To queue" value as "movie" (i.e., the queue that was created in step 2)
      - Enter "Routing key:" value as "movierouting"
-    And then click on "Bind" button
+       And then click on "Bind" button
 
 4. Navigate to apache-tomee-plume-7.0.6/conf/context.xml. And add the below lines:
 
@@ -37,8 +37,8 @@ This sample application demonstrates TomEE - Java EE applications with JMS.
   <Resource id="movieDatabase" type="javax.sql.DataSource">
          JdbcDriver=com.mysql.jdbc.Driver
          JdbcUrl=jdbc:mysql://localhost:3306/moviefun
-         UserName=rkgatram
-         Password=Indi@123
+        UserName=abc
+         Password=xxx
          JtaManaged=true
   </Resource>
 
@@ -49,6 +49,3 @@ This sample application demonstrates TomEE - Java EE applications with JMS.
     mysql-connector-java-8.0.18.jar
 
 7.
-
-
-

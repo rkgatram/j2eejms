@@ -37,8 +37,8 @@ This sample application demonstrates TomEE - Java EE applications with JMS.
   <Resource id="movieDatabase" type="javax.sql.DataSource">
          JdbcDriver=com.mysql.jdbc.Driver
          JdbcUrl=jdbc:mysql://localhost:3306/moviefun
-         UserName=rkgatram
-         Password=Indi@123
+         UserName=abc
+         Password=xxx
          JtaManaged=true
   </Resource>
 
